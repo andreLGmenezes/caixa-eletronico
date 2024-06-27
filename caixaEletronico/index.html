@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa eletronico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <h1>Caixa eletronico</h1>
+        <form action="resposta.php" method="get">
+            <label for="saque">Qual Valor do seu saque em reais?<sup>*</sup></label>
+            <input type="number" name="saque" id="saque" step="5" required value="saque">
+            <p style="font-size: 0.7em"><sup>*</sup>Notas disponiveis: R$100, R$50, R$10, R$5,</p>
+            <input type="submit" value="Sacar">
+        </form>
+    </main>
+</body>
+</html>
